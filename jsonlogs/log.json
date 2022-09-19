@@ -1,0 +1,150 @@
+[
+  {
+    "description": "    As a user\n    I want to access to homepage\n    So can check \"register or login\" button",
+    "elements": [
+      {
+        "description": "",
+        "id": "header-in-the-main-page;check-main-button",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Check main button",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the main page",
+            "result": {
+              "duration": 12364000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "see the Header",
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "check \"Login or register\" button is displayed",
+            "result": {
+              "duration": 79000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Header"
+          },
+          {
+            "line": 7,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "id": "header-in-the-main-page",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Header in the main page",
+    "uri": "cypress\\e2e\\features\\Header.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Header"
+      }
+    ]
+  },
+  {
+    "description": "    As a user\n    I want to access to homepage\n    So can check quick access section",
+    "elements": [
+      {
+        "description": "",
+        "id": "quickaccess-in-the-main-page;check-quick-access",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Check quick access",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the main page",
+            "result": {
+              "duration": 12862000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "see quick access section",
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "check the options: \"Fast shipping, Easy Payments, Shipping Options, Large Variety\"",
+            "result": {
+              "duration": 267000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@QuickAccess"
+          },
+          {
+            "line": 7,
+            "name": "@smoke"
+          },
+          {
+            "line": 7,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "id": "quickaccess-in-the-main-page",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "QuickAccess in the main page",
+    "uri": "cypress\\e2e\\features\\QuickAccess.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@QuickAccess"
+      }
+    ]
+  }
+]

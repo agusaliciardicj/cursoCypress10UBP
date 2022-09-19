@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "npx cypress open --e2e --browser chrome",
-    "cypress:run:smoke":  "npx cypress run --e2e --browser chrome -e tags=@smoke",
-    "cypress:run:smoke:regression":  "npx cypress run --e2e --browser chrome -e tags=\"@smoke and @regression\""
+    "cypress:run:smoke": "npx cypress run --e2e --browser chrome -e tags=@smoke",
+    "cypress:run:regression": "npx cypress run --e2e --browser chrome -e tags=@regression",
+    "cypress:run:smoke:regression": "npx cypress run --e2e --browser chrome -e tags=\"@smoke and @regression\""
   },
   "keywords": [
     "cypress",

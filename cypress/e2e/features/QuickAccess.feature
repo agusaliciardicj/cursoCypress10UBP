@@ -4,7 +4,7 @@ Feature: QuickAccess in the main page
     I want to access to homepage
     So can check quick access section
 
-  @snmoke @regression
+  @smoke @regression
   Scenario: Check quick access
     Given the main page
     When see quick access section
